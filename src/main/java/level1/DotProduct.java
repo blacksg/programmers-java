@@ -24,9 +24,7 @@ class DotProduct {
     
     // Stream을 사용한 풀이
     public int solution2(int[] a, int[] b) {
-        return IntStream.range(0, a.length).reduce(
-            0,
-            (product, index) -> product + a[index] * b[index]
-        );
+        return IntStream.range(0, a.length)
+            .reduce(0, (product, index) -> product + a[index] * b[index]);
     }
 }
