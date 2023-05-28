@@ -6,11 +6,11 @@ import java.util.stream.IntStream;
  * 연습문제 - 평균 구하기 (Lv.1)
  *
  * [요구사항]
- * - int 배열 arr의 평균값을 리턴한다.
+ * - int 배열 `arr`의 평균값을 리턴한다.
  *
  * [제한사항]
- * - arr의 길이는 1 이상 100 이하다.
- * - arr의 요소는 -10000 이상 10000 이하의 정수다.
+ * - `arr`의 길이는 1 이상 100 이하다.
+ * - `arr`의 요소는 -10000 이상 10000 이하의 정수다.
  */
 class Average {
     public double solution1(int[] arr) {
